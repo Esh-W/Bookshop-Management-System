@@ -4,6 +4,9 @@
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="title" type="java.lang.String" value="City Bookshop"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[800, 596]"/>
+    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -206,7 +209,6 @@
                 <Property name="text" type="java.lang.String" value="Logout"/>
               </Properties>
               <Events>
-                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="logoutButtonMouseEntered"/>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="logoutButtonActionPerformed"/>
               </Events>
             </Component>
@@ -476,11 +478,9 @@
                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="3" groupAlignment="3" attributes="0">
-                              <Component id="addBookButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="addCategoryButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="createAccountButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="addBookButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addCategoryButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="createAccountButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="16" max="32767" attributes="0"/>
                   </Group>
@@ -699,7 +699,7 @@
                 </Property>
                 <Property name="showHorizontalLines" type="boolean" value="true"/>
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
-                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                  <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
                 </Property>
               </Properties>
             </Component>

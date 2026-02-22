@@ -54,6 +54,7 @@ public class Dashboard extends javax.swing.JFrame {
         
         jLabel4.putClientProperty(FlatClientProperties.STYLE, "arc:20");
         
+        jPanel10.putClientProperty(FlatClientProperties.STYLE, "arc:20");
         jPanel3.putClientProperty(FlatClientProperties.STYLE, "arc:20");
         jPanel5.putClientProperty(FlatClientProperties.STYLE, "arc:20");
         jPanel6.putClientProperty(FlatClientProperties.STYLE, "arc:20");
@@ -257,6 +258,7 @@ public class Dashboard extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("City Bookshop");
+        setMinimumSize(new java.awt.Dimension(800, 596));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -301,11 +303,6 @@ public class Dashboard extends javax.swing.JFrame {
         );
 
         logoutButton.setText("Logout");
-        logoutButton.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                logoutButtonMouseEntered(evt);
-            }
-        });
         logoutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 logoutButtonActionPerformed(evt);
@@ -530,10 +527,9 @@ public class Dashboard extends javax.swing.JFrame {
                 .addGap(15, 15, 15)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel13)
-                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(addBookButton)
-                        .addComponent(addCategoryButton)
-                        .addComponent(createAccountButton)))
+                    .addComponent(addBookButton)
+                    .addComponent(addCategoryButton)
+                    .addComponent(createAccountButton))
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
@@ -631,6 +627,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
         inventoryTable.setShowHorizontalLines(true);
+        inventoryTable.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(inventoryTable);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -709,10 +706,6 @@ public class Dashboard extends javax.swing.JFrame {
         CreateAccountDialog dialog = new CreateAccountDialog(this, true);
         dialog.setVisible(true);
     }//GEN-LAST:event_createAccountButtonActionPerformed
-
-    private void logoutButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_logoutButtonMouseEntered
-        logoutButton.setBackground(Color.red);
-    }//GEN-LAST:event_logoutButtonMouseEntered
 
     public void setupAccess(String role) {
         setUserInfo(jLabel3.getText(), role);
