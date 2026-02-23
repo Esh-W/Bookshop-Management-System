@@ -1,8 +1,6 @@
 package user;
 
-// ABSTRACTION: This class is abstract. You can't instantiate a 'User', only specific types.
 public abstract class User {
-    // ENCAPSULATION: Variables are private. Accessed via public getters/setters.
     private String fullName;
     private String username;
     private String password;
@@ -15,7 +13,6 @@ public abstract class User {
         this.role = role;
     }
 
-    // Getters and Setters
     public String getFullName() { return fullName; }
     public void setFullName(String fullName) { this.fullName = fullName; }
 
@@ -28,10 +25,8 @@ public abstract class User {
     public String getRole() { return role; }
     public void setRole(String role) { this.role = role; }
 
-    // Abstract method to demonstrate Polymorphism (Optional but good for marks)
     public abstract String getAccessLevel(); 
     
-    // Convert object to a comma-separated string for file saving
     public String toFileString() {
         return role + "," + fullName + "," + username + "," + password;
     }

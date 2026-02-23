@@ -6,7 +6,6 @@ import java.util.List;
 
 public class FileHandler {
     
-    // Appends a single line to a specified file
     public static void writeLineToFile(String fileName, String data) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
             writer.write(data);
@@ -16,12 +15,10 @@ public class FileHandler {
         }
     }
 
-    // Reads all lines from a specified file
     public static List<String> readLinesFromFile(String fileName) {
         List<String> lines = new ArrayList<>();
         File file = new File(fileName);
         
-        // If file doesn't exist, return empty list to prevent crash
         if (!file.exists()) return lines; 
 
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
@@ -35,7 +32,6 @@ public class FileHandler {
         return lines;
     }
 
-    // Overwrites a file with the provided lines
     public static void writeLinesToFile(String fileName, List<String> lines) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, false))) {
             for (String line : lines) {
