@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 public class CategoryService {
-    private static final String FILE_NAME = "categories.txt";
+    private static final String FILE_NAME = "data/categories.txt";
 
     public static List<String> getAllCategories() {
         List<String> lines = FileHandler.readLinesFromFile(FILE_NAME);

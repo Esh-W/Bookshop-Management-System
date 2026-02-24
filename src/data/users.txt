@@ -1,0 +1,2 @@
+Manager,John Doe,admin,admin123
+Cashier,Peter Parker,peter,peter123

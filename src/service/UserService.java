@@ -6,7 +6,7 @@ import user.User;
 import java.util.List;
 
 public class UserService {
-    private static final String FILE_NAME = "users.txt";
+    private static final String FILE_NAME = "data/users.txt";
 
     public static void saveUser(User user) {
         FileHandler.writeLineToFile(FILE_NAME, user.toFileString());

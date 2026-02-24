@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookService {
-    private static final String FILE_NAME = "books.txt";
+    private static final String FILE_NAME = "data/books.txt";
 
     public static void saveBook(Book book) {
         FileHandler.writeLineToFile(FILE_NAME, book.toFileString());

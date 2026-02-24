@@ -11,7 +11,7 @@ A Java Swing desktop application for managing a bookshop. The project uses NetBe
 ## Project Structure
 - `src/` Java source code (GUI, services, models)
 - `build.xml` Ant build script
-- `books.txt`, `categories.txt`, `users.txt` data files
+- `data/` data files (`books.txt`, `categories.txt`, `users.txt`)
 
 ## Requirements
 - Java JDK 8 or later
@@ -30,5 +30,5 @@ ant run
 ```
 
 ## Notes
-- Data is stored in plain text files in the project root.
+- Data is stored in plain text files in the `data/` folder.
 - The main entry point is `src/main/Main.java`.
