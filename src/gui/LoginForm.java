@@ -163,8 +163,6 @@ public class LoginForm extends javax.swing.JFrame {
             
 
             if (loggedInUser != null) {
-                javax.swing.JOptionPane.showMessageDialog(this, "Welcome, " + loggedInUser.getFullName());
-
                 Dashboard dashboard = new Dashboard();
                 dashboard.setUserInfo(loggedInUser.getFullName(), loggedInUser.getRole());
                 dashboard.setupAccess(loggedInUser.getRole()); 

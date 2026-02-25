@@ -16,6 +16,8 @@ public class Book {
         this.stock = stock;
         this.isbn = isbn;
     }
+    
+    public void setStock(int stock){ this.stock = stock; }
 
     public String getTitle() { return title; }
     public String getAuthor() { return author; }

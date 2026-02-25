@@ -37,6 +37,7 @@ public class BookService {
         boolean updated = false;
         for (int i = 0; i < books.size(); i++) {
             if (books.get(i).getIsbn().equals(book.getIsbn())) {
+                book.setStock(books.get(i).getStock() + book.getStock());
                 books.set(i, book);
                 updated = true;
                 break;
