@@ -21,6 +21,10 @@ public class Dashboard extends javax.swing.JFrame {
 
     public Dashboard() {
         initComponents();
+        
+        java.awt.EventQueue.invokeLater(() -> {
+            searchTextField.requestFocusInWindow();
+        });
 
         searchTextField.putClientProperty("JTextField.placeholderText", "Title, author or ISBN...");
         searchTextField.putClientProperty("JTextField.leadingIcon", new com.formdev.flatlaf.icons.FlatSearchIcon());

@@ -8,6 +8,7 @@ public class LoginForm extends javax.swing.JFrame {
 
     public LoginForm() {
         initComponents();
+        getRootPane().setDefaultButton(loginButton);
         
         FlatSVGIcon logoIcon = new FlatSVGIcon("icons/bookLogo.svg", 40, 40);
         logoIcon.setColorFilter(new ColorFilter(color -> Color.decode("#C2632E")));
@@ -52,6 +53,7 @@ public class LoginForm extends javax.swing.JFrame {
         loginButton.setBackground(new java.awt.Color(194, 99, 46));
         loginButton.setForeground(new java.awt.Color(255, 255, 255));
         loginButton.setText("Login");
+        loginButton.setBorderPainted(false);
         loginButton.setPreferredSize(new java.awt.Dimension(150, 26));
         loginButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,6 +148,7 @@ public class LoginForm extends javax.swing.JFrame {
                 "Login Error",
                 javax.swing.JOptionPane.WARNING_MESSAGE
             );
+            usernameField.requestFocusInWindow();
             return;
         }
 
@@ -181,6 +184,7 @@ public class LoginForm extends javax.swing.JFrame {
                 javax.swing.JOptionPane.ERROR_MESSAGE
             );
             passwordField.setText("");
+            passwordField.requestFocusInWindow();
         }
     }//GEN-LAST:event_loginButtonActionPerformed
 
