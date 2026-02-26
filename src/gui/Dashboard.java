@@ -69,6 +69,13 @@ public class Dashboard extends javax.swing.JFrame {
         }
     }
 
+    public void setUserInfo(String fullName, String role, String accessInfo) {
+        setUserInfo(fullName, role);
+        if (accessInfo != null && !accessInfo.trim().isEmpty()) {
+            jLabel4.setToolTipText(accessInfo.trim());
+        }
+    }
+
     private void configureFilters() {
         jComboBox2.setModel(new DefaultComboBoxModel<>(new String[] {
             "Any Price",

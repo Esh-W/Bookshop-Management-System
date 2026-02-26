@@ -163,8 +163,9 @@ public class LoginForm extends javax.swing.JFrame {
             
 
             if (loggedInUser != null) {
+                String accessInfo = loggedInUser.getAccessLevel(true);
                 Dashboard dashboard = new Dashboard();
-                dashboard.setUserInfo(loggedInUser.getFullName(), loggedInUser.getRole());
+                dashboard.setUserInfo(loggedInUser.getFullName(), loggedInUser.getRole(), accessInfo);
                 dashboard.setupAccess(loggedInUser.getRole()); 
                 dashboard.setVisible(true);
                 dispose();

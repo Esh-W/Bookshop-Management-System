@@ -26,6 +26,14 @@ public abstract class User {
     public void setRole(String role) { this.role = role; }
 
     public abstract String getAccessLevel(); 
+
+    public String getAccessLevel(boolean includeRoleName) {
+        String accessLevel = getAccessLevel();
+        if (includeRoleName) {
+            return role + " - " + accessLevel;
+        }
+        return accessLevel;
+    }
     
     public String toFileString() {
         return role + "," + fullName + "," + username + "," + password;
