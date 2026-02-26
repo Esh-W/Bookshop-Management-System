@@ -2,10 +2,14 @@
 setlocal
 cd /d "%~dp0"
 
-java -jar City_Bookshop.jar
+where javaw >nul 2>&1
 if errorlevel 1 (
   echo.
-  echo Failed to start City Bookshop.
-  echo Make sure Java 17 or later is installed and available in PATH.
+  echo Java was not found.
+  echo Install Java 17 or later, then run this file again.
   pause
+  exit /b 1
 )
+
+start "" javaw -jar City_Bookshop.jar
+exit /b 0
