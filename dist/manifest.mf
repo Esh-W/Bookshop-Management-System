@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: main.Main
+Class-Path: lib/flatlaf-3.7.jar lib/flatlaf-extras-3.7.jar lib/jsvg-2.0.0.jar lib/AbsoluteLayout.jar
+

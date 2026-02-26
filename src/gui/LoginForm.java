@@ -9,13 +9,12 @@ public class LoginForm extends javax.swing.JFrame {
     public LoginForm() {
         initComponents();
         getRootPane().setDefaultButton(loginButton);
-        
+
         FlatSVGIcon logoIcon = new FlatSVGIcon("icons/bookLogo.svg", 40, 40);
         logoIcon.setColorFilter(new ColorFilter(color -> Color.decode("#C2632E")));
         logo.setIcon(logoIcon);
     }
     
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 

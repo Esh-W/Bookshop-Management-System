@@ -210,7 +210,6 @@ public class Dashboard extends javax.swing.JFrame {
         }
     }
     
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -606,14 +605,14 @@ public class Dashboard extends javax.swing.JFrame {
                 "Title", "Author", "Category", "Price", "Stock", "ISBN"
             }
         ) {
-            Class[] types = new Class [] {
+            Class<?>[] types = new Class<?>[] {
                 java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
                 false, false, false, false, false, false
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class<?> getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
 

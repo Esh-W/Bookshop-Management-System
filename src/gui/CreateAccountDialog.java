@@ -14,7 +14,6 @@ public class CreateAccountDialog extends javax.swing.JDialog {
         roleComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Role", "Manager", "Cashier" }));
     }
 
-    @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -166,8 +165,6 @@ public class CreateAccountDialog extends javax.swing.JDialog {
             }
 
             service.UserService.saveUser(newUser);
-            
-            System.out.println("Account ready to save -> Name: " + fullName + " | User: " + username + " | Role: " + role);
 
             javax.swing.JOptionPane.showMessageDialog(
                 CreateAccountDialog.this,
