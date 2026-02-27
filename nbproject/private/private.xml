@@ -3,18 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/service/BookService.java</file>
             <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/gui/AddBookDialog.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/gui/Dashboard.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/gui/CreateAccountDialog.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/gui/AddCategoryDialog.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/main/Main.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/service/FileHandler.java</file>
             <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/user/Cashier.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/service/UserService.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/service/CategoryService.java</file>
+            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/gui/Dashboard.java</file>
             <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/user/User.java</file>
-            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/model/Book.java</file>
+            <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/gui/AddCategoryDialog.java</file>
             <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/user/Manager.java</file>
             <file>file:/C:/Users/MSI%20by%20WIFI/OneDrive/Documents/NetBeansProjects/Bookshop-Management-System/src/gui/LoginForm.java</file>
         </group>

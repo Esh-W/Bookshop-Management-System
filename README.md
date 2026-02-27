@@ -43,14 +43,28 @@ java -cp $cp main.Main
 - Ensure JDK is installed on the target machine.
 - Package from NetBeans output (`dist/`) for distribution.
 
+## Packaging Steps (Windows)
+1. In NetBeans, run **Clean and Build**.
+2. Open `dist/` and confirm `City_Bookshop.jar`, `lib/`, and `run.bat` are present.
+3. Copy project `data/` into `dist/` so you have `dist/data/`.
+4. Double-click `dist/run.bat` and perform a quick smoke test (login, add category/book).
+5. Share the whole `dist/` folder to target machines.
+
 ## Distribution Run (Windows)
 - Open the `dist/` folder.
-- Double-click `run.bat` to launch the app.
+- Ensure `data/` exists inside `dist/` (`dist/data/`).
+- Double-click `run.bat` to launch the app (silent launch, no CMD window).
 - Or run manually: `java -jar City_Bookshop.jar` (from inside `dist/`).
+
+If `run.bat` does not launch the app, verify Java is installed and available in PATH, then test with:
+```
+java -jar City_Bookshop.jar
+```
 
 ## Data Backup & Restore
 - Backup: copy the full `data/` folder (`books.txt`, `categories.txt`, `users.txt`) to a safe location.
 - Restore: close the app, replace the target machine's `data/` folder with the backup, then reopen the app.
+- For packaged distribution from `dist/`, use `dist/data/` as the live data folder.
 - Recommended: keep dated backups (for example, one backup per day).
 
 ## Notes

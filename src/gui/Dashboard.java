@@ -8,8 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.SwingConstants;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import model.Book;
 import service.BookService;
@@ -57,6 +59,7 @@ public class Dashboard extends javax.swing.JFrame {
         inventoryTable.setShowVerticalLines(false);
         inventoryTable.setRowHeight(35);
         inventoryTable.setShowHorizontalLines(true);
+        configureTableRenderers();
 
         configureFilters();
         refreshCategories();
@@ -109,6 +112,27 @@ public class Dashboard extends javax.swing.JFrame {
         });
     }
 
+    private void configureTableRenderers() {
+        DefaultTableCellRenderer priceRenderer = new DefaultTableCellRenderer() {
+            @Override
+            protected void setValue(Object value) {
+                if (value instanceof Number) {
+                    setText(String.format("%.2f", ((Number) value).doubleValue()));
+                } else {
+                    super.setValue(value);
+                }
+            }
+        };
+        priceRenderer.setHorizontalAlignment(SwingConstants.RIGHT);
+
+        DefaultTableCellRenderer rightAlignedRenderer = new DefaultTableCellRenderer();
+        rightAlignedRenderer.setHorizontalAlignment(SwingConstants.RIGHT);
+
+        inventoryTable.getColumnModel().getColumn(3).setCellRenderer(priceRenderer);
+        inventoryTable.getColumnModel().getColumn(4).setCellRenderer(rightAlignedRenderer);
+        inventoryTable.getColumnModel().getColumn(5).setCellRenderer(rightAlignedRenderer);
+    }
+
     public void refreshData() {
         allBooks.clear();
         allBooks.addAll(BookService.getAllBooks());
@@ -153,7 +177,7 @@ public class Dashboard extends javax.swing.JFrame {
                 book.getTitle(),
                 book.getAuthor(),
                 book.getCategory(),
-                String.format("%.2f", book.getPrice()),
+                book.getPrice(),
                 book.getStock(),
                 book.getIsbn()
             });
@@ -596,6 +620,7 @@ public class Dashboard extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        inventoryTable.setAutoCreateRowSorter(true);
         inventoryTable.setBackground(new java.awt.Color(246, 246, 246));
         inventoryTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -606,7 +631,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         ) {
             Class<?>[] types = new Class<?>[] {
-                java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.String.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Integer.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
                 false, false, false, false, false, false

@@ -650,6 +650,7 @@
           <SubComponents>
             <Component class="javax.swing.JTable" name="inventoryTable">
               <Properties>
+                <Property name="autoCreateRowSorter" type="boolean" value="true"/>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="f6" green="f6" red="f6" type="rgb"/>
                 </Property>
@@ -660,7 +661,7 @@
                     <Column editable="false" title="Category" type="java.lang.Object"/>
                     <Column editable="false" title="Price" type="java.lang.Object"/>
                     <Column editable="false" title="Stock" type="java.lang.Object"/>
-                    <Column editable="false" title="ISBN" type="java.lang.String"/>
+                    <Column editable="false" title="ISBN" type="java.lang.Object"/>
                   </Table>
                 </Property>
                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
