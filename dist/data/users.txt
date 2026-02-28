@@ -1,2 +1,4 @@
 Manager,John Doe,admin,admin123
 Cashier,Peter Parker,peter,peter123
+
+Cashier,Alex Murray,alex,alex123

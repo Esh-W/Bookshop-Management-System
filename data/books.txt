@@ -1,100 +1,100 @@
-The Great Gatsby,F. Scott Fitzgerald,Classic,2230.0,70,9780743273565
-To Kill a Mockingbird,Harper Lee,Classic,2243.0,70,9780061120084
-A Good Girl's Guide to Murder,Holly Jackson,Mystery Thriller,1973.0,41,9781984896360
-Wings of Fire,A. P. J. Abdul Kalam,Biography,2045.0,13,9788173711466
-The Alchemist,Paulo Coelho,Fiction,1718.0,47,9780061122415
-Clean Code,Robert C. Martin,Programming,5268.0,24,9780132350884
-Harry Potter and the Sorcerer's Stone,J. K. Rowling,Fantasy,4007.0,70,9780590353427
-The Power of Now,Eckhart Tolle,Self-Help,2074.0,50,9781577314806
-Rich Dad Poor Dad,Robert T. Kiyosaki,Finance,2646.0,34,9781612680194
-Think and Grow Rich,Napoleon Hill,Motivation,1719.0,47,9781585424337
-Introduction to Algorithms,Thomas H. Cormen,Computer Science,3442.0,18,9780262033848
-Atomic Habits,James Clear,Self-Help,1953.0,2,9780735211292
-The Pragmatic Programmer,Andrew Hunt,Programming,3616.0,1,9780201616224
-1984,George Orwell,Dystopian,2004.0,47,9780451524935
-Animal Farm,George Orwell,Classic,2373.0,37,9780451526342
-Brave New World,Aldous Huxley,Dystopian,2038.0,18,9780060850524
-Fahrenheit 451,Ray Bradbury,Dystopian,2040.0,36,9781451673319
-The Catcher in the Rye,J. D. Salinger,Classic,1289.0,43,9780316769488
-Lord of the Flies,William Golding,Classic,1640.0,56,9780399501487
-Of Mice and Men,John Steinbeck,Classic,2111.0,31,9780140177398
-Pride and Prejudice,Jane Austen,Classic,2311.0,30,9780141439518
-Jane Eyre,Charlotte Bronte,Classic,2293.0,54,9780142437209
-Wuthering Heights,Emily Bronte,Classic,1353.0,69,9780141439556
-The Hobbit,J. R. R. Tolkien,Fantasy,2106.0,10,9780547928227
-The Lord of the Rings,J. R. R. Tolkien,Fantasy,3516.0,41,9780544003415
-The Fellowship of the Ring,J. R. R. Tolkien,Fantasy,2183.0,79,9780547928210
-The Two Towers,J. R. R. Tolkien,Fantasy,3326.0,79,9780547928203
-The Return of the King,J. R. R. Tolkien,Fantasy,3148.0,38,9780547928197
-A Game of Thrones,George R. R. Martin,Fantasy,3350.0,10,9780553593716
-A Clash of Kings,George R. R. Martin,Fantasy,1812.0,20,9780553579901
-A Storm of Swords,George R. R. Martin,Fantasy,2105.0,30,9780553573428
-The Name of the Wind,Patrick Rothfuss,Fantasy,4173.0,73,9780756404741
-The Wise Man's Fear,Patrick Rothfuss,Fantasy,2364.0,12,9780756404734
-Dune,Frank Herbert,Science Fiction,2793.0,34,9780441172719
-Dune Messiah,Frank Herbert,Science Fiction,3159.0,44,9780441172696
-Children of Dune,Frank Herbert,Science Fiction,2398.0,7,9780441104024
-The Martian,Andy Weir,Science Fiction,3179.0,23,9780553418026
-Project Hail Mary,Andy Weir,Science Fiction,3474.0,3,9780593135204
-Ender's Game,Orson Scott Card,Science Fiction,2431.0,50,9780812550702
-Foundation,Isaac Asimov,Science Fiction,2206.0,51,9780553293357
-I Robot,Isaac Asimov,Science Fiction,2692.0,62,9780553294385
-Neuromancer,William Gibson,Science Fiction,2517.0,29,9780441569595
-Snow Crash,Neal Stephenson,Science Fiction,2694.0,19,9780553380958
-The Road,Cormac McCarthy,Dystopian,2256.0,24,9780307387899
-The Stand,Stephen King,Horror,2144.0,30,9780307743688
-It,Stephen King,Horror,2168.0,24,9781501142970
-The Shining,Stephen King,Horror,2638.0,35,9780307743657
-Misery,Stephen King,Horror,2673.0,15,9781501143106
-The Silent Patient,Alex Michaelides,Mystery Thriller,2084.0,2,9781250301697
-Gone Girl,Gillian Flynn,Mystery Thriller,1971.0,32,9780307588371
-The Girl on the Train,Paula Hawkins,Mystery Thriller,2302.0,10,9781594634024
-The Da Vinci Code,Dan Brown,Mystery Thriller,1787.0,40,9780307474278
-Angels and Demons,Dan Brown,Mystery Thriller,2382.0,55,9780743493468
-The Lost Symbol,Dan Brown,Mystery Thriller,1992.0,54,9781400079148
-Inferno,Dan Brown,Mystery Thriller,1766.0,43,9781400079155
-Origin,Dan Brown,Mystery Thriller,1951.0,5,9780804172264
-The Girl with the Dragon Tattoo,Stieg Larsson,Mystery Thriller,1993.0,14,9780307454546
-The Girl Who Played with Fire,Stieg Larsson,Mystery Thriller,2777.0,48,9780307454553
-The Girl Who Kicked the Hornets Nest,Stieg Larsson,Mystery Thriller,2531.0,31,9780307454560
-Sherlock Holmes The Complete Novels and Stories,Arthur Conan Doyle,Mystery Thriller,2102.0,42,9780553212419
-And Then There Were None,Agatha Christie,Mystery Thriller,1978.0,8,9780062073488
-Murder on the Orient Express,Agatha Christie,Mystery Thriller,2176.0,43,9780062693662
-The Hound of the Baskervilles,Arthur Conan Doyle,Mystery Thriller,2591.0,43,9781514698983
-Sapiens,Yuval Noah Harari,History,2554.0,3,9780062316097
-Homo Deus,Yuval Noah Harari,History,3067.0,20,9780062464316
-Guns Germs and Steel,Jared Diamond,History,1942.0,36,9780393317558
-A Brief History of Time,Stephen Hawking,Science,2063.0,39,9780553380163
-The Selfish Gene,Richard Dawkins,Science,2959.0,42,9780199291151
-Cosmos,Carl Sagan,Science,1935.0,33,9780345539434
-The Immortal Life of Henrietta Lacks,Rebecca Skloot,Science,2957.0,29,9781400052189
-Steve Jobs,Walter Isaacson,Biography,2936.0,28,9781451648539
-Becoming,Michelle Obama,Memoir,1624.0,2,9781524763138
-Educated,Tara Westover,Memoir,3049.0,17,9780399590504
-Shoe Dog,Phil Knight,Memoir,3136.0,10,9781501135910
-Elon Musk,Ashlee Vance,Biography,3312.0,7,9780062301239
-The Diary of a Young Girl,Anne Frank,Memoir,2727.0,39,9780553296983
-Man's Search for Meaning,Viktor E. Frankl,Psychology,3039.0,15,9780807014295
-Meditations,Marcus Aurelius,Philosophy,1835.0,8,9780140449334
-The Republic,Plato,Philosophy,1627.0,15,9780140455113
-Beyond Good and Evil,Friedrich Nietzsche,Philosophy,2566.0,27,9780140449235
-The Prince,Niccolo Machiavelli,Philosophy,1514.0,5,9780140449150
-The Art of War,Sun Tzu,Philosophy,1650.0,16,9781599869773
-The 7 Habits of Highly Effective People,Stephen R. Covey,Productivity,1754.0,1,9781982137274
-Deep Work,Cal Newport,Productivity,2793.0,30,9781455586691
-Getting Things Done,David Allen,Productivity,2390.0,14,9780143126560
-The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,2252.0,33,9780062457714
-Thinking Fast and Slow,Daniel Kahneman,Psychology,2210.0,50,9780374533557
-Flow,Mihaly Csikszentmihalyi,Psychology,2905.0,36,9780061339202
-Influence,Robert B. Cialdini,Psychology,3045.0,13,9780061241895
-Start with Why,Simon Sinek,Business,2453.0,14,9781591846444
-Zero to One,Peter Thiel,Business,1704.0,40,9780804139298
-The Lean Startup,Eric Ries,Business,2834.0,53,9780307887894
-Good to Great,Jim Collins,Business,3269.0,12,9780066620992
-The Intelligent Investor,Benjamin Graham,Finance,2197.0,52,9780060555665
-The Psychology of Money,Morgan Housel,Finance,2841.0,2,9780857197689
-The Millionaire Next Door,Thomas J. Stanley,Finance,1883.0,22,9781589795471
-The Code Breaker,Walter Isaacson,Biography,3315.0,30,9781982115852
-The Gene,Siddhartha Mukherjee,Science,3396.0,24,9781476733524
-The Emperor of All Maladies,Siddhartha Mukherjee,Science,3072.0,4,9781439170915
-A Promised Land,Barack Obama,Politics,2777.0,14,9781524763169
+The Great Gatsby,F. Scott Fitzgerald,Classic,2200.0,70,9780743273565
+To Kill a Mockingbird,Harper Lee,Classic,2200.0,70,9780061120084
+A Good Girl's Guide to Murder,Holly Jackson,Mystery Thriller,2000.0,41,9781984896360
+Wings of Fire,A. P. J. Abdul Kalam,Biography,2000.0,13,9788173711466
+The Alchemist,Paulo Coelho,Fiction,1700.0,47,9780061122415
+Clean Code,Robert C. Martin,Programming,5300.0,24,9780132350884
+Harry Potter and the Sorcerer's Stone,J. K. Rowling,Fantasy,4000.0,70,9780590353427
+The Power of Now,Eckhart Tolle,Self-Help,2100.0,50,9781577314806
+Rich Dad Poor Dad,Robert T. Kiyosaki,Finance,2600.0,34,9781612680194
+Think and Grow Rich,Napoleon Hill,Motivation,1700.0,47,9781585424337
+Introduction to Algorithms,Thomas H. Cormen,Computer Science,3400.0,18,9780262033848
+Atomic Habits,James Clear,Self-Help,2000.0,2,9780735211292
+The Pragmatic Programmer,Andrew Hunt,Programming,3600.0,1,9780201616224
+1984,George Orwell,Dystopian,2000.0,47,9780451524935
+Animal Farm,George Orwell,Classic,2400.0,37,9780451526342
+Brave New World,Aldous Huxley,Dystopian,2000.0,18,9780060850524
+Fahrenheit 451,Ray Bradbury,Dystopian,2000.0,36,9781451673319
+The Catcher in the Rye,J. D. Salinger,Classic,1300.0,43,9780316769488
+Lord of the Flies,William Golding,Classic,1600.0,56,9780399501487
+Of Mice and Men,John Steinbeck,Classic,2100.0,31,9780140177398
+Pride and Prejudice,Jane Austen,Classic,2300.0,30,9780141439518
+Jane Eyre,Charlotte Bronte,Classic,2300.0,54,9780142437209
+Wuthering Heights,Emily Bronte,Classic,1400.0,69,9780141439556
+The Hobbit,J. R. R. Tolkien,Fantasy,2100.0,10,9780547928227
+The Lord of the Rings,J. R. R. Tolkien,Fantasy,3500.0,41,9780544003415
+The Fellowship of the Ring,J. R. R. Tolkien,Fantasy,2200.0,79,9780547928210
+The Two Towers,J. R. R. Tolkien,Fantasy,3300.0,79,9780547928203
+The Return of the King,J. R. R. Tolkien,Fantasy,3100.0,38,9780547928197
+A Game of Thrones,George R. R. Martin,Fantasy,3400.0,10,9780553593716
+A Clash of Kings,George R. R. Martin,Fantasy,1800.0,20,9780553579901
+A Storm of Swords,George R. R. Martin,Fantasy,2100.0,30,9780553573428
+The Name of the Wind,Patrick Rothfuss,Fantasy,4200.0,73,9780756404741
+The Wise Man's Fear,Patrick Rothfuss,Fantasy,2400.0,12,9780756404734
+Dune,Frank Herbert,Science Fiction,2800.0,34,9780441172719
+Dune Messiah,Frank Herbert,Science Fiction,3200.0,44,9780441172696
+Children of Dune,Frank Herbert,Science Fiction,2400.0,7,9780441104024
+The Martian,Andy Weir,Science Fiction,3200.0,23,9780553418026
+Project Hail Mary,Andy Weir,Science Fiction,3500.0,3,9780593135204
+Ender's Game,Orson Scott Card,Science Fiction,2400.0,50,9780812550702
+Foundation,Isaac Asimov,Science Fiction,2200.0,51,9780553293357
+I Robot,Isaac Asimov,Science Fiction,2700.0,62,9780553294385
+Neuromancer,William Gibson,Science Fiction,2500.0,29,9780441569595
+Snow Crash,Neal Stephenson,Science Fiction,2700.0,19,9780553380958
+The Road,Cormac McCarthy,Dystopian,2300.0,24,9780307387899
+The Stand,Stephen King,Horror,2100.0,30,9780307743688
+It,Stephen King,Horror,2200.0,24,9781501142970
+The Shining,Stephen King,Horror,2600.0,35,9780307743657
+Misery,Stephen King,Horror,2700.0,15,9781501143106
+The Silent Patient,Alex Michaelides,Mystery Thriller,2100.0,2,9781250301697
+Gone Girl,Gillian Flynn,Mystery Thriller,2000.0,32,9780307588371
+The Girl on the Train,Paula Hawkins,Mystery Thriller,2300.0,10,9781594634024
+The Da Vinci Code,Dan Brown,Mystery Thriller,1800.0,40,9780307474278
+Angels and Demons,Dan Brown,Mystery Thriller,2400.0,55,9780743493468
+The Lost Symbol,Dan Brown,Mystery Thriller,2000.0,54,9781400079148
+Inferno,Dan Brown,Mystery Thriller,1800.0,43,9781400079155
+Origin,Dan Brown,Mystery Thriller,2000.0,5,9780804172264
+The Girl with the Dragon Tattoo,Stieg Larsson,Mystery Thriller,2000.0,14,9780307454546
+The Girl Who Played with Fire,Stieg Larsson,Mystery Thriller,2800.0,48,9780307454553
+The Girl Who Kicked the Hornets Nest,Stieg Larsson,Mystery Thriller,2500.0,31,9780307454560
+Sherlock Holmes The Complete Novels and Stories,Arthur Conan Doyle,Mystery Thriller,2100.0,42,9780553212419
+And Then There Were None,Agatha Christie,Mystery Thriller,2000.0,8,9780062073488
+Murder on the Orient Express,Agatha Christie,Mystery Thriller,2200.0,43,9780062693662
+The Hound of the Baskervilles,Arthur Conan Doyle,Mystery Thriller,2600.0,43,9781514698983
+Sapiens,Yuval Noah Harari,History,2600.0,3,9780062316097
+Homo Deus,Yuval Noah Harari,History,3100.0,20,9780062464316
+Guns Germs and Steel,Jared Diamond,History,1900.0,36,9780393317558
+A Brief History of Time,Stephen Hawking,Science,2100.0,39,9780553380163
+The Selfish Gene,Richard Dawkins,Science,3000.0,42,9780199291151
+Cosmos,Carl Sagan,Science,1900.0,33,9780345539434
+The Immortal Life of Henrietta Lacks,Rebecca Skloot,Science,3000.0,29,9781400052189
+Steve Jobs,Walter Isaacson,Biography,2900.0,28,9781451648539
+Becoming,Michelle Obama,Memoir,1600.0,2,9781524763138
+Educated,Tara Westover,Memoir,3000.0,17,9780399590504
+Shoe Dog,Phil Knight,Memoir,3100.0,10,9781501135910
+Elon Musk,Ashlee Vance,Biography,3300.0,7,9780062301239
+The Diary of a Young Girl,Anne Frank,Memoir,2700.0,39,9780553296983
+Man's Search for Meaning,Viktor E. Frankl,Psychology,3000.0,15,9780807014295
+Meditations,Marcus Aurelius,Philosophy,1800.0,8,9780140449334
+The Republic,Plato,Philosophy,1600.0,15,9780140455113
+Beyond Good and Evil,Friedrich Nietzsche,Philosophy,2600.0,27,9780140449235
+The Prince,Niccolo Machiavelli,Philosophy,1500.0,5,9780140449150
+The Art of War,Sun Tzu,Philosophy,1700.0,16,9781599869773
+The 7 Habits of Highly Effective People,Stephen R. Covey,Productivity,1800.0,1,9781982137274
+Deep Work,Cal Newport,Productivity,2800.0,30,9781455586691
+Getting Things Done,David Allen,Productivity,2400.0,14,9780143126560
+The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,2300.0,33,9780062457714
+Thinking Fast and Slow,Daniel Kahneman,Psychology,2200.0,50,9780374533557
+Flow,Mihaly Csikszentmihalyi,Psychology,2900.0,36,9780061339202
+Influence,Robert B. Cialdini,Psychology,3000.0,13,9780061241895
+Start with Why,Simon Sinek,Business,2500.0,14,9781591846444
+Zero to One,Peter Thiel,Business,1700.0,40,9780804139298
+The Lean Startup,Eric Ries,Business,2800.0,53,9780307887894
+Good to Great,Jim Collins,Business,3300.0,12,9780066620992
+The Intelligent Investor,Benjamin Graham,Finance,2200.0,52,9780060555665
+The Psychology of Money,Morgan Housel,Finance,2800.0,2,9780857197689
+The Millionaire Next Door,Thomas J. Stanley,Finance,1900.0,22,9781589795471
+The Code Breaker,Walter Isaacson,Biography,3300.0,30,9781982115852
+The Gene,Siddhartha Mukherjee,Science,3400.0,24,9781476733524
+The Emperor of All Maladies,Siddhartha Mukherjee,Science,3100.0,4,9781439170915
+A Promised Land,Barack Obama,Politics,2800.0,14,9781524763169

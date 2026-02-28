@@ -17,6 +17,18 @@ A Java Swing desktop application for managing a bookshop. The project uses NetBe
 - Java JDK 8 or later
 - NetBeans (recommended) or Apache Ant
 
+## Demo Credentials (For Lecturer Review)
+Use these accounts for academic demo/testing only:
+
+- **Manager**
+	- Username: `admin`
+	- Password: `admin123`
+- **Cashier**
+	- Username: `peter`
+	- Password: `peter123`
+
+Credentials are stored in `data/users.txt` and can be changed after review.
+
 ## Run (NetBeans)
 1. Open the project folder in NetBeans.
 2. Right-click the project and choose **Run**.

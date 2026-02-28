@@ -7,10 +7,6 @@ import java.util.List;
 public class BookService {
     private static final String FILE_NAME = "data/books.txt";
 
-    public static void saveBook(Book book) {
-        FileHandler.writeLineToFile(FILE_NAME, book.toFileString());
-    }
-
     public static List<Book> getAllBooks() {
         List<String> lines = FileHandler.readLinesFromFile(FILE_NAME);
         List<Book> books = new ArrayList<>();
@@ -48,14 +44,5 @@ public class BookService {
         }
         saveAllBooks(books);
         return updated;
-    }
-
-    public static boolean deleteBookByIsbn(String isbn) {
-        List<Book> books = getAllBooks();
-        boolean removed = books.removeIf(book -> book.getIsbn().equals(isbn));
-        if (removed) {
-            saveAllBooks(books);
-        }
-        return removed;
     }
 }

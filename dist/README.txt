@@ -13,6 +13,18 @@ type the following:
 
 java -jar "City_Bookshop.jar" 
 
+Demo Credentials (For Lecturer Review):
+
+Manager
+- Username: admin
+- Password: admin123
+
+Cashier
+- Username: peter
+- Password: peter123
+
+These accounts are for academic demo/testing only.
+
 To distribute this project, zip up the dist folder (including the lib folder)
 and distribute the ZIP file.
 
